@@ -1,0 +1,49 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+  background: #212121;
+  color: #fff;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+.page {
+  background: yellow;
+  width: 400px;
+  height: 700px;
+  color: black;
+}
+.red {
+  color: red;
+  text-align: center;
+  margin: 10px;
+}
+.inputField {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 25px;
+  gap: 5px;
+}
+label {
+  font-weight: bold;
+}
+.chose {
+  display: flex;
+  gap: 5px;
+}
+p {
+  font-weight: bold;
+}
+.btn {
+  color: white;
+  background: salmon;
+  padding: 5px 25px;
+  border: none;
+  border-radius: 7px;
+  font-weight: bold;
+}
